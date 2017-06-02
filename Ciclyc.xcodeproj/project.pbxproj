@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B209154C1D90089E00856248 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209154B1D90089E00856248 /* Design.swift */; };
+		B20915561D912EB400856248 /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20915551D912EB400856248 /* SelectColorViewController.swift */; };
+		B209155C1D912F4F00856248 /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20915571D912F4F00856248 /* BrightnessView.swift */; };
+		B209155D1D912F4F00856248 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20915581D912F4F00856248 /* ColorUtils.swift */; };
+		B209155E1D912F4F00856248 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20915591D912F4F00856248 /* ColorWheel.swift */; };
+		B209155F1D912F4F00856248 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209155A1D912F4F00856248 /* SelectedColorView.swift */; };
+		B20915601D912F4F00856248 /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209155B1D912F4F00856248 /* SwiftHSVColorPicker.swift */; };
+		B212F9391D9A6E1500E4445B /* MulticolorPolylineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B212F9381D9A6E1500E4445B /* MulticolorPolylineSegment.swift */; };
+		B2216B1E1D99155500A8EFD4 /* BrowseWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2216B1D1D99155500A8EFD4 /* BrowseWorkOutViewController.swift */; };
+		B2216B201D99229C00A8EFD4 /* ShowWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2216B1F1D99229C00A8EFD4 /* ShowWorkOutViewController.swift */; };
+		B2216B221D9965E700A8EFD4 /* WorkOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2216B211D9965E700A8EFD4 /* WorkOutTableViewCell.swift */; };
+		B257277C1D941C7400181C24 /* WorkOutMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257277B1D941C7400181C24 /* WorkOutMapViewController.swift */; };
+		B26AB30D1DA0045D00D05913 /* runnerColoredcopy.png in Resources */ = {isa = PBXBuildFile; fileRef = B26AB30C1DA0045D00D05913 /* runnerColoredcopy.png */; };
+		B27311731D8BFF2E00625C6D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27311721D8BFF2E00625C6D /* MapKit.framework */; };
+		B27311771D8C1B6600625C6D /* NonClippingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27311761D8C1B6600625C6D /* NonClippingLabel.swift */; };
+		B27311791D8C229C00625C6D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27311781D8C229C00625C6D /* Settings.swift */; };
+		B273117F1D8C386100625C6D /* WorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273117E1D8C386100625C6D /* WorkOutViewController.swift */; };
+		B27710FC1D954D2500D4B027 /* WorkOutDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27710FB1D954D2500D4B027 /* WorkOutDataBase.swift */; };
 		B28D48791D896AEC00706037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D48781D896AEC00706037 /* AppDelegate.swift */; };
 		B28D487B1D896AEC00706037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D487A1D896AEC00706037 /* ViewController.swift */; };
 		B28D487E1D896AEC00706037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28D487C1D896AEC00706037 /* Main.storyboard */; };
 		B28D48801D896AEC00706037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28D487F1D896AEC00706037 /* Assets.xcassets */; };
 		B28D48831D896AEC00706037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28D48811D896AEC00706037 /* LaunchScreen.storyboard */; };
+		B28D488B1D8973BF00706037 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28D488A1D8973BF00706037 /* Units.swift */; };
+		B28D488E1D89862500706037 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28D488D1D89862500706037 /* CoreLocation.framework */; };
+		B28D48901D8A8E8D00706037 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28D488F1D8A8E8D00706037 /* CoreData.framework */; };
+		B29EF9491D915BAE00E2D15F /* Sweetercolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29EF9481D915BAE00E2D15F /* Sweetercolor.swift */; };
+		B2BADE801D926EB9001A485D /* CharacterSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BADE7F1D926EB9001A485D /* CharacterSpacing.swift */; };
+		B2BADE861D928681001A485D /* WorkOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BADE851D928681001A485D /* WorkOut.swift */; };
+		B2BADE881D928C6D001A485D /* StartWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BADE871D928C6D001A485D /* StartWorkOutViewController.swift */; };
+		B2C1369D1D9427DF00E38754 /* WorkoutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C1369C1D9427DF00E38754 /* WorkoutPageViewController.swift */; };
+		B2CC3C2C1DB68F9C00BB2037 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC3C2B1DB68F9C00BB2037 /* InitialViewController.swift */; };
+		B2CC3C2E1DB7888E00BB2037 /* fadeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC3C2D1DB7888E00BB2037 /* fadeLabel.swift */; };
+		B2E617D61EE15C62009C0E07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E617D51EE15C62009C0E07 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B209154B1D90089E00856248 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		B20915551D912EB400856248 /* SelectColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
+		B20915571D912F4F00856248 /* BrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrightnessView.swift; path = Source/BrightnessView.swift; sourceTree = "<group>"; };
+		B20915581D912F4F00856248 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorUtils.swift; path = Source/ColorUtils.swift; sourceTree = "<group>"; };
+		B20915591D912F4F00856248 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorWheel.swift; path = Source/ColorWheel.swift; sourceTree = "<group>"; };
+		B209155A1D912F4F00856248 /* SelectedColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedColorView.swift; path = Source/SelectedColorView.swift; sourceTree = "<group>"; };
+		B209155B1D912F4F00856248 /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftHSVColorPicker.swift; path = Source/SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
+		B212F9381D9A6E1500E4445B /* MulticolorPolylineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorPolylineSegment.swift; sourceTree = "<group>"; };
+		B2216B1D1D99155500A8EFD4 /* BrowseWorkOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseWorkOutViewController.swift; sourceTree = "<group>"; };
+		B2216B1F1D99229C00A8EFD4 /* ShowWorkOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowWorkOutViewController.swift; sourceTree = "<group>"; };
+		B2216B211D9965E700A8EFD4 /* WorkOutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOutTableViewCell.swift; sourceTree = "<group>"; };
+		B257277B1D941C7400181C24 /* WorkOutMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOutMapViewController.swift; sourceTree = "<group>"; };
+		B26AB30C1DA0045D00D05913 /* runnerColoredcopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runnerColoredcopy.png; sourceTree = "<group>"; };
+		B273116F1D8BFF2000625C6D /* Ciclyc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ciclyc.entitlements; sourceTree = "<group>"; };
+		B27311721D8BFF2E00625C6D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B27311761D8C1B6600625C6D /* NonClippingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonClippingLabel.swift; sourceTree = "<group>"; };
+		B27311781D8C229C00625C6D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B273117E1D8C386100625C6D /* WorkOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOutViewController.swift; sourceTree = "<group>"; };
+		B27710FB1D954D2500D4B027 /* WorkOutDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOutDataBase.swift; sourceTree = "<group>"; };
 		B28D48751D896AEC00706037 /* Ciclyc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ciclyc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28D48781D896AEC00706037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B28D487A1D896AEC00706037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +70,17 @@
 		B28D487F1D896AEC00706037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28D48821D896AEC00706037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28D48841D896AEC00706037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28D488A1D8973BF00706037 /* Units.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		B28D488D1D89862500706037 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B28D488F1D8A8E8D00706037 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B29EF9481D915BAE00E2D15F /* Sweetercolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweetercolor.swift; sourceTree = "<group>"; };
+		B2BADE7F1D926EB9001A485D /* CharacterSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSpacing.swift; sourceTree = "<group>"; };
+		B2BADE851D928681001A485D /* WorkOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOut.swift; sourceTree = "<group>"; };
+		B2BADE871D928C6D001A485D /* StartWorkOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkOutViewController.swift; sourceTree = "<group>"; };
+		B2C1369C1D9427DF00E38754 /* WorkoutPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutPageViewController.swift; sourceTree = "<group>"; };
+		B2CC3C2B1DB68F9C00BB2037 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		B2CC3C2D1DB7888E00BB2037 /* fadeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fadeLabel.swift; sourceTree = "<group>"; };
+		B2E617D51EE15C62009C0E07 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +88,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28D48901D8A8E8D00706037 /* CoreData.framework in Frameworks */,
+				B27311731D8BFF2E00625C6D /* MapKit.framework in Frameworks */,
+				B28D488E1D89862500706037 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20915611D912F5600856248 /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+				B2BADE821D92738D001A485D /* NonItalicClippingLabel */,
+				B2BADE811D926EBE001A485D /* CharacterSpacing */,
+				B29EF94B1D915BCA00E2D15F /* SweeterColor */,
+				B29EF94A1D915BC100E2D15F /* ColorPicker */,
+				B2411FD11DC377AA005F8274 /* FadingLable */,
+			);
+			name = OtherSources;
+			sourceTree = "<group>";
+		};
+		B2411FD11DC377AA005F8274 /* FadingLable */ = {
+			isa = PBXGroup;
+			children = (
+				B2CC3C2D1DB7888E00BB2037 /* fadeLabel.swift */,
+			);
+			name = FadingLable;
+			sourceTree = "<group>";
+		};
+		B257277D1D941CB000181C24 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				B273117E1D8C386100625C6D /* WorkOutViewController.swift */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		B274CF801DACD1AF006256C7 /* InitialView */ = {
+			isa = PBXGroup;
+			children = (
+				B28D487A1D896AEC00706037 /* ViewController.swift */,
+				B2CC3C2B1DB68F9C00BB2037 /* InitialViewController.swift */,
+			);
+			name = InitialView;
+			sourceTree = "<group>";
+		};
+		B274CF811DACD1C1006256C7 /* WorkoutObject */ = {
+			isa = PBXGroup;
+			children = (
+				B28D488A1D8973BF00706037 /* Units.swift */,
+				B2BADE851D928681001A485D /* WorkOut.swift */,
+				B27710FB1D954D2500D4B027 /* WorkOutDataBase.swift */,
+			);
+			name = WorkoutObject;
+			sourceTree = "<group>";
+		};
+		B274CF821DACD1CC006256C7 /* StartWorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				B2C1369C1D9427DF00E38754 /* WorkoutPageViewController.swift */,
+				B2BADE871D928C6D001A485D /* StartWorkOutViewController.swift */,
+				B257277B1D941C7400181C24 /* WorkOutMapViewController.swift */,
+			);
+			name = StartWorkoutView;
+			sourceTree = "<group>";
+		};
+		B274CF831DACD20E006256C7 /* BrowseWorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				B2216B1D1D99155500A8EFD4 /* BrowseWorkOutViewController.swift */,
+				B2216B211D9965E700A8EFD4 /* WorkOutTableViewCell.swift */,
+				B2216B1F1D99229C00A8EFD4 /* ShowWorkOutViewController.swift */,
+			);
+			name = BrowseWorkoutView;
+			sourceTree = "<group>";
+		};
+		B274CF841DACD223006256C7 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				B2E617D51EE15C62009C0E07 /* SettingsViewController.swift */,
+				B20915551D912EB400856248 /* SelectColorViewController.swift */,
+			);
+			name = SettingsView;
+			sourceTree = "<group>";
+		};
+		B274CF851DACD240006256C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B27311781D8C229C00625C6D /* Settings.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		B274CF861DACD25F006256C7 /* DesignRelated */ = {
+			isa = PBXGroup;
+			children = (
+				B209154B1D90089E00856248 /* Design.swift */,
+			);
+			name = DesignRelated;
+			sourceTree = "<group>";
+		};
+		B274CF871DACD297006256C7 /* MapViewRelated */ = {
+			isa = PBXGroup;
+			children = (
+				B212F9381D9A6E1500E4445B /* MulticolorPolylineSegment.swift */,
+			);
+			name = MapViewRelated;
+			sourceTree = "<group>";
+		};
 		B28D486C1D896AEC00706037 = {
 			isa = PBXGroup;
 			children = (
+				B26AB30C1DA0045D00D05913 /* runnerColoredcopy.png */,
 				B28D48771D896AEC00706037 /* Ciclyc */,
 				B28D48761D896AEC00706037 /* Products */,
+				B28D488C1D89862500706037 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +218,70 @@
 		B28D48771D896AEC00706037 /* Ciclyc */ = {
 			isa = PBXGroup;
 			children = (
+				B273116F1D8BFF2000625C6D /* Ciclyc.entitlements */,
 				B28D48781D896AEC00706037 /* AppDelegate.swift */,
-				B28D487A1D896AEC00706037 /* ViewController.swift */,
+				B274CF801DACD1AF006256C7 /* InitialView */,
+				B274CF821DACD1CC006256C7 /* StartWorkoutView */,
+				B274CF811DACD1C1006256C7 /* WorkoutObject */,
+				B274CF831DACD20E006256C7 /* BrowseWorkoutView */,
+				B274CF841DACD223006256C7 /* SettingsView */,
+				B274CF851DACD240006256C7 /* Settings */,
+				B274CF871DACD297006256C7 /* MapViewRelated */,
+				B274CF861DACD25F006256C7 /* DesignRelated */,
+				B20915611D912F5600856248 /* OtherSources */,
+				B257277D1D941CB000181C24 /* Old */,
 				B28D487C1D896AEC00706037 /* Main.storyboard */,
 				B28D487F1D896AEC00706037 /* Assets.xcassets */,
 				B28D48811D896AEC00706037 /* LaunchScreen.storyboard */,
 				B28D48841D896AEC00706037 /* Info.plist */,
 			);
 			path = Ciclyc;
+			sourceTree = "<group>";
+		};
+		B28D488C1D89862500706037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27311721D8BFF2E00625C6D /* MapKit.framework */,
+				B28D488F1D8A8E8D00706037 /* CoreData.framework */,
+				B28D488D1D89862500706037 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29EF94A1D915BC100E2D15F /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B20915571D912F4F00856248 /* BrightnessView.swift */,
+				B20915581D912F4F00856248 /* ColorUtils.swift */,
+				B20915591D912F4F00856248 /* ColorWheel.swift */,
+				B209155A1D912F4F00856248 /* SelectedColorView.swift */,
+				B209155B1D912F4F00856248 /* SwiftHSVColorPicker.swift */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		B29EF94B1D915BCA00E2D15F /* SweeterColor */ = {
+			isa = PBXGroup;
+			children = (
+				B29EF9481D915BAE00E2D15F /* Sweetercolor.swift */,
+			);
+			name = SweeterColor;
+			sourceTree = "<group>";
+		};
+		B2BADE811D926EBE001A485D /* CharacterSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				B2BADE7F1D926EB9001A485D /* CharacterSpacing.swift */,
+			);
+			name = CharacterSpacing;
+			sourceTree = "<group>";
+		};
+		B2BADE821D92738D001A485D /* NonItalicClippingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B27311761D8C1B6600625C6D /* NonClippingLabel.swift */,
+			);
+			name = NonItalicClippingLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +318,17 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = X29CMB76NU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28D48831D896AEC00706037 /* LaunchScreen.storyboard in Resources */,
+				B26AB30D1DA0045D00D05913 /* runnerColoredcopy.png in Resources */,
 				B28D48801D896AEC00706037 /* Assets.xcassets in Resources */,
 				B28D487E1D896AEC00706037 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +369,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28D488B1D8973BF00706037 /* Units.swift in Sources */,
+				B2CC3C2C1DB68F9C00BB2037 /* InitialViewController.swift in Sources */,
+				B212F9391D9A6E1500E4445B /* MulticolorPolylineSegment.swift in Sources */,
+				B209154C1D90089E00856248 /* Design.swift in Sources */,
 				B28D487B1D896AEC00706037 /* ViewController.swift in Sources */,
+				B2BADE801D926EB9001A485D /* CharacterSpacing.swift in Sources */,
+				B27311771D8C1B6600625C6D /* NonClippingLabel.swift in Sources */,
+				B2C1369D1D9427DF00E38754 /* WorkoutPageViewController.swift in Sources */,
+				B257277C1D941C7400181C24 /* WorkOutMapViewController.swift in Sources */,
+				B2BADE881D928C6D001A485D /* StartWorkOutViewController.swift in Sources */,
 				B28D48791D896AEC00706037 /* AppDelegate.swift in Sources */,
+				B2BADE861D928681001A485D /* WorkOut.swift in Sources */,
+				B27311791D8C229C00625C6D /* Settings.swift in Sources */,
+				B2CC3C2E1DB7888E00BB2037 /* fadeLabel.swift in Sources */,
+				B2216B221D9965E700A8EFD4 /* WorkOutTableViewCell.swift in Sources */,
+				B27710FC1D954D2500D4B027 /* WorkOutDataBase.swift in Sources */,
+				B2216B1E1D99155500A8EFD4 /* BrowseWorkOutViewController.swift in Sources */,
+				B273117F1D8C386100625C6D /* WorkOutViewController.swift in Sources */,
+				B20915601D912F4F00856248 /* SwiftHSVColorPicker.swift in Sources */,
+				B29EF9491D915BAE00E2D15F /* Sweetercolor.swift in Sources */,
+				B20915561D912EB400856248 /* SelectColorViewController.swift in Sources */,
+				B209155D1D912F4F00856248 /* ColorUtils.swift in Sources */,
+				B2216B201D99229C00A8EFD4 /* ShowWorkOutViewController.swift in Sources */,
+				B2E617D61EE15C62009C0E07 /* SettingsViewController.swift in Sources */,
+				B209155C1D912F4F00856248 /* BrightnessView.swift in Sources */,
+				B209155F1D912F4F00856248 /* SelectedColorView.swift in Sources */,
+				B209155E1D912F4F00856248 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +559,7 @@
 				B28D48891D896AEC00706037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
