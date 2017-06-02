@@ -3,4 +3,4 @@ Track your cycling experiences. Display only the information you need (speed, av
 
 # Screenshots
 
-![alt text](https://github.com/voelkerb/Cyclic/blob/master/icons/shotScreen.png)
+![alt text](https://github.com/voelkerb/Cyclic/blob/master/icons/shotScreen.PNG)
